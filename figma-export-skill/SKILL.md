@@ -1,3 +1,8 @@
+---
+name: figma-export
+description: 一键导出 Figma 设计为自包含还原包（结构/tokens/素材/截图）。当用户粘贴 figma.com 链接、提到设计还原、设计稿导出、Figma 转内网代码时触发。在外网机器执行，产物传内网使用。
+---
+
 # figma-export — 一键导出 Figma 设计还原包
 
 把指定 Figma 节点（页面/Frame/组件）的全部还原所需信息导出成一个**自包含目录**，供内网环境（无 Figma 访问）高保真还原使用。
